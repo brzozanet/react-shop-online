@@ -1,4 +1,3 @@
-export const actionAddFavourite = (params) => {
+export const actionAddFavourite = () => {
   console.log("add to favourite action");
-  console.log(params);
 };
