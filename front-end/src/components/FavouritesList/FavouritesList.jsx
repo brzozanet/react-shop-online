@@ -6,7 +6,7 @@ export const FavouritesList = ({ data }) => {
   return (
     <>
       <div className={css.favouritesList}>
-        {data.map((product) => {
+        {data.map(({ product }) => {
           return (
             <FavouriteProduct
               image={product.photos[0]}
